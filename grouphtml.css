@@ -1,0 +1,57 @@
+body {
+  background-color: #1E201E;
+}
+
+.Titlepage {
+text-align: center;
+font-family: "Monospace", Lucida Console;
+font-size: 30px;
+background-color: lightgrey;
+border-radius: 12px;
+padding: 5px;
+box-shadow: 6px 4px 8px 4px;
+color: #697565;
+margin: 70px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  
+}
+
+.grid-item {
+  background-color: #697565;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  max-width: 30%;
+  max-height: 30%
+ }
+
+img {
+max-width: 50%;
+max-height: 50%;
+}
+
+h2 {
+font-family: "Monospace", Lucida Console;
+color: #ECDFCC;
+font-size: 0.875em
+text-shadow: 2px 2px 5px black;
+}
+
+img:hover {
+  opacity: 0.5;
+  
+}
+p {
+font-family: "Monospace", Lucida Console;
+color: #ECDFCC;
+text-align: center;
+font-size: 0.875em
+}
+
+
